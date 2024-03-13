@@ -73,7 +73,7 @@ Algoritmo Asignacion_de_variable
 	// ERROR TIPICO DE PRINCIPIANTE:
 	// El programador que esta empezando a entrenarse puede cometer errores.
 	// Esto es humano y parte del proceso.
-	// El error más común es POR ERROR que escrba la sentencia de este modo:
+	// El error más común es POR ERROR que escriba la sentencia de este modo:
 	
 	escribir "Trate de ver cuál es el error en la LINEA DE LA sentencia ESCRIBIR"
 	escribir "COMPARE las líneas 70 con la 82"
