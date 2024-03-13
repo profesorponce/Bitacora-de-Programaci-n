@@ -40,7 +40,7 @@ Algoritmo Asignacion_de_variable
 	
 	//En PSeint es INDISTINTO nombrar con mayúsculas, minúsculas y/o mezcla
 	// de myúculas / minusculas. Pero algunos lenguajes ESTRICTOS diferencian
-	// entre mayusculas y minustculas:
+	// entre mayusculas y minusculas:
 	
 	// En PSeint el nombre varcar_nombre identifica a la misma variable que
 	// VARCAR_nombre o varcar_nombre
