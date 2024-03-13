@@ -48,7 +48,7 @@ Algoritmo Asignacion_de_variable
 	// identificarían a 3 variables DIFERENTES. Es MUY IMPORTANTE que para evitar 
 	// errores en el equipo de trabajo usted sepa si su lenguaje es flexible o
 	// estricto al momento de nombrar e identificar variables. SIEMPRE DEBE LEER 
-	// LA DOUMENTACION DEL LENGUAJE Y LA VERSION DEL LENGUAJE QUE ESTÁ UTILIZANDO
+	// LA DOCUMENTACION DEL LENGUAJE Y LA VERSION DEL LENGUAJE QUE ESTÁ UTILIZANDO
 	// en sus desarrollos.
 	
 	// mi variable se llamará VARCAR_NOMBRE y es del tipo caracter
