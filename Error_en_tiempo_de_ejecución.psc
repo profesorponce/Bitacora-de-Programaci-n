@@ -91,7 +91,7 @@ Algoritmo Error_en_tiempo_de_ejecución
 	// COMENTEN ERRORES. SIEMPRE. Los errores son parte cotidiana de la
 	// vida de un programador
 	
-	// VAHORA AMOS PROVOCAR UN ERROR EN NUESTRO PROGRAMA:
+	// AHORA VAMOS PROVOCAR UN ERROR EN NUESTRO PROGRAMA:
 	
 	// El ERROR LOGICO está en la linea 100
 	// Si no puede identificarlo, por favor, PREGUNTEME EN CLASE
