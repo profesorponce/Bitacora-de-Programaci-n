@@ -77,7 +77,7 @@ Algoritmo Error_en_tiempo_de_ejecución
 	// bitácora).
 	
 	// A algunos programadores les molesta el trabajo de los tester
-	// porque son los "reasltan" los errores del programador. ESTO
+	// porque son los que "resaltan" los errores del programador. ESTO
 	// LO CONSIDERO ABSURDO. Como programador, deberíamos estar
 	// agradecidos de que un colega auxiliar nos permita DEPURAR
 	// y eliminar errores en nuestro trabajo.
