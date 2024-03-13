@@ -68,7 +68,7 @@ Algoritmo Error_en_tiempo_de_ejecución
 	
 	// En los ERRORES LOGICOS usted estará completamente solo con sus
 	// conocimientos porque NINGUN ENTORNO IDE lo podrá ayudar.
-	// Lo primeros que DEPURAN ERRORES son los programadores antes
+	// Los primeros que DEPURAN ERRORES son los programadores antes
 	// de dar por finalizado sus programas
 	
 	// En algunas empresas o proyectos los programadores son los
