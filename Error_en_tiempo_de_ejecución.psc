@@ -85,7 +85,7 @@ Algoritmo Error_en_tiempo_de_ejecución
 	// Para no convertirse en un PROGRAMADOR RESENTIDO, trate de ser
 	// perfeccionista en esta etapa de FORMACION y tenga conocimentos
 	// SOLIDOS. Mientras mayor cantidad de conocimientos tenga, menor
-	// será a cantidad de errores que cometa.
+	// será la cantidad de errores que cometa.
 	
 	// Pero recuerde que TODOS LOS PROGRAMAODES (Iniciales, Juniors o Seniors)
 	// COMENTEN ERRORES. SIEMPRE. Los errores son parte cotidiana de la
