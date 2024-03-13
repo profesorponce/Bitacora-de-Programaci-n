@@ -34,16 +34,16 @@ Algoritmo Asignacion_de_variable
 	// Inmediatamente se agrega un GUION BAJO y el nombre de identificación
 	// de la variable
 	 
-	// En este caso usare una variable que trabajara con nombres de
-	// persona (se llamara nombre) y trabajara carateres (ve la bitácora en la sección 
+	// En este caso usare una variable que trabajará con nombres de
+	// persona (se llamará nombre) y trabajará carateres (vea la bitácora en la sección 
 	// TIPOS DE VARIABLES)
 	
-	//En PSeint es INDISTINTO nombrar con mayúsculas, minúsculas y/o mezcla
-	// de myúculas / minusculas. Pero algunos lenguajes ESTRICTOS diferencian
-	// entre mayusculas y minusculas:
+	// En PSeint es INDISTINTO nombrar con mayúsculas, minúsculas y/o mezcla
+	// de mayúculas / minúsculas. Pero algunos lenguajes ESTRICTOS diferencian
+	// entre mayúsculas y minúsculas:
 	
 	// En PSeint el nombre varcar_nombre identifica a la misma variable que
-	// VARCAR_nombre o varcar_nombre
+	// VARCAR_nombre o Varcar_nombre
 	// Pero en lenguajes estrictos varcar_nombre, VARCAR_nombre, varcar_nombre
 	// identificarían a 3 variables DIFERENTES. Es MUY IMPORTANTE que para evitar 
 	// errores en el equipo de trabajo usted sepa si su lenguaje es flexible o
