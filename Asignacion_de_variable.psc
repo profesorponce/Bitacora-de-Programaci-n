@@ -44,7 +44,7 @@ Algoritmo Asignacion_de_variable
 	
 	// En PSeint el nombre varcar_nombre identifica a la misma variable que
 	// VARCAR_nombre o Varcar_nombre
-	// Pero en lenguajes estrictos varcar_nombre, VARCAR_nombre, varcar_nombre
+	// Pero en lenguajes estrictos varcar_nombre, VARCAR_nombre, varcar_Nombre
 	// identificarían a 3 variables DIFERENTES. Es MUY IMPORTANTE que para evitar 
 	// errores en el equipo de trabajo usted sepa si su lenguaje es flexible o
 	// estricto al momento de nombrar e identificar variables. SIEMPRE DEBE LEER 
