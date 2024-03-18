@@ -18,6 +18,8 @@
 
 // ---------------------------------------
 // Vea la infografia que envió su profesor
+// Infografía: Ejecución de Programas: Lineal, Si-Sino-Finsi y Si-Sino-Finsi Anidado
+// https://drive.google.com/file/d/1qPz-cbWMHkdyxJmRcBOIgxEm-KSxWXLj/view
 // ---------------------------------------
 
 // nunca se olvide asignarle un nombre al programa
