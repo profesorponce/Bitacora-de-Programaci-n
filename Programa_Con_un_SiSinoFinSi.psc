@@ -1,19 +1,21 @@
-//  Programa Con una estructura de DecisiÛn Si-Sino-FinSi
+//  Programa Con una estructura de Decisi√≥n Si-Sino-FinSi
 // (c) Ricardo Ponce
 // https://profesorponce.blogspot.com/
 // Version 2024
 //
-// El programa simula el ingreso a un cajero autom·tico
+// El programa simula el ingreso a un cajero autom√°tico
 // que solicita la clave de acceso
 //
 // Este programa se ejecuta linea por linea o sentencia
-// por sentencia hasta llegar a la estructura de decisiÛn
+// por sentencia hasta llegar a la estructura de decisi√≥n
 // que termina decidiendo que conjunto de sentecias se
-// ejecutar·n seg˙n el usuario haya ingresado o no 
+// ejecutar√°n seg√∫n el usuario haya ingresado o no 
 // los valores correctos para identificarse.
 
 // ---------------------------------------
-// Vea la infografia que enviÛ su profesor
+// Vea la infografia que envi√≥ su profesor
+// Infograf√≠a: Ejecuci√≥n de Programas: Lineal, Si-Sino-Finsi y Si-Sino-Finsi Anidado
+// https://drive.google.com/file/d/1qPz-cbWMHkdyxJmRcBOIgxEm-KSxWXLj/view
 // ---------------------------------------
 
 // nunca se olvide asignarle un nombre al programa
@@ -23,11 +25,11 @@ Algoritmo Estructura_SiSinoFinsi_Simple
 	// (1)	Ruta inicial del programa 
 	// ------------------------------
 	
-	// la variable del usuario se llamar· VARCAR_CLAVE_INGRESADA y es del tipo caracter
+	// la variable del usuario se llamar√° VARCAR_CLAVE_INGRESADA y es del tipo caracter
 	definir varcar_clave_ingresada Como Caracter
 	definir varcar_clave_almacenada Como Caracter
 	
-	// inicializaciÛn de las variables
+	// inicializaci√≥n de las variables
 	varcar_clave_almacenada = "7894"
 	varcar_clave_ingresada = ""
 		
@@ -43,24 +45,24 @@ Algoritmo Estructura_SiSinoFinsi_Simple
 	leer varcar_clave_ingresada
 	
 	// --------------------------------------------------------------------------------------
-	// (2) Estructura de DecisiÛn (Si-Sino-Finsi) que obliga Al programa a tomar una decisiÛn 
+	// (2) Estructura de Decisi√≥n (Si-Sino-Finsi) que obliga Al programa a tomar una decisi√≥n 
 	// --------------------------------------------------------------------------------------
 	si  varcar_clave_ingresada =  varcar_clave_almacenada Entonces
 		// ------------------------------------------------------------
-		// (3) Camino que toma el programa si la condiciÛn es VERDADERA 
+		// (3) Camino que toma el programa si la condici√≥n es VERDADERA 
 		// ------------------------------------------------------------
 		limpiar pantalla
 		Escribir " "
 		escribir "Su CLAVE es CORRECTA."
-		escribir "El sistema ahora abrir· su cuenta para operar con ella"
+		escribir "El sistema ahora abrir√° su cuenta para operar con ella"
 	sino 	
 		// --------------------------------------------------------
-		// (4) Camino que toma el programa si la condiciÛn es FALSA
+		// (4) Camino que toma el programa si la condici√≥n es FALSA
 		// --------------------------------------------------------
 		limpiar pantalla
 		Escribir " "
 		escribir "Su CLAVE es INCORRECTA."
-		escribir "El sistema ahora saldr· sin abrir la cuenta"
+		escribir "El sistema ahora saldr√° sin abrir la cuenta"
 	FinSi
 	
 	// ---------------------------
