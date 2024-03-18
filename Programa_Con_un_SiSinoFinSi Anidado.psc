@@ -1,39 +1,39 @@
-//  Programa Con una estructura de Decisión Si-Sino-FinSi ANIDADA
+//  Programa Con una estructura de DecisiÃ³n Si-Sino-FinSi ANIDADA
 // (c) Ricardo Ponce
 // https://profesorponce.blogspot.com/
 // Version 2024
 //
 // El programa simula el ingreso a un sistema
-// que requiere autenticación mediante
-// nombre de usuario y contraseña
+// que requiere autenticaciÃ³n mediante
+// nombre de usuario y contraseÃ±a
 //
 // Este programa se ejecuta linea por linea o sentencia
-// por sentencia hasta llegar a las estructuras de decisión
+// por sentencia hasta llegar a las estructuras de decisiÃ³n
 // que terminan decidiendo que conjunto de sentecias se
-// ejecutarán según el usuario haya ingresado o no 
+// ejecutarÃ¡n segÃºn el usuario haya ingresado o no 
 // los valores correctos para identificarse.
 
-// Como observará, hay una estructura SI-SINO-FINSI anidada
+// Como observarÃ¡, hay una estructura SI-SINO-FINSI anidada
 // dentro de otra
 
 // ---------------------------------------
-// Vea la infografia que envió su profesor
+// Vea la infografia que enviÃ³ su profesor
 // ---------------------------------------
 
 // nunca se olvide asignarle un nombre al programa
 Algoritmo Estructura_SiSinoFinsi_Anidada
 	
 	// ------------------------------
-	// (1)	Ruta inicial del programa 
+	// Ruta inicial del programa 
 	// ------------------------------
 	
-	// la variable del usuario se llamará VARCAR_CLAVE_INGRESADA y es del tipo caracter
+	// la variable del usuario se llamarÃ¡ VARCAR_CLAVE_INGRESADA y es del tipo caracter
 	definir varcar_usuario_ingresado Como Caracter
 	definir varcar_usuario_almacenado Como Caracter
 	definir varcar_password_ingresado Como Caracter
 	definir varcar_password_almacenado Como Caracter
 	
-	// inicialización de las variables almacenadas
+	// inicializaciÃ³n de las variables almacenadas
 	varcar_usuario_almacenado = "patricio"
 	varcar_password_almacenado = "7894"
 	
@@ -53,51 +53,51 @@ Algoritmo Estructura_SiSinoFinsi_Anidada
 	leer varcar_usuario_ingresado
 	
 	// --------------------------------------------------------------------------------------
-	// (1) Primera estructura de decisión 
+	// (1) Primera estructura de decisiÃ³n 
 	// --------------------------------------------------------------------------------------
 	si  varcar_usuario_ingresado =  varcar_usuario_almacenado Entonces
 		// ------------------------------------------------------------
-		// (2) Camino que toma si la primera decisión es verdadera
+		// (2) Camino que toma si la primera decisiÃ³n es verdadera
 		// ------------------------------------------------------------
 		limpiar pantalla
 		Escribir " "
 		escribir "USUARIO IDENTIFICADO dentro del sistema."
 	    Escribir " "
 		escribir "Por favor, cuando aparezca el prompt de pantalla [ >| ]"
-	    escribir "escriba su CONTRASEÑA o PASSWORD y presione la tecla ENTER o INTRO"
+	    escribir "escriba su CONTRASEÃ‘A o PASSWORD y presione la tecla ENTER o INTRO"
 	    leer varcar_password_ingresado
 		
 		// ---------------------------------------------------------------
-		// (4) Segunda estructura de decisión ANIDADA en la primera o (1)
+		// (4) Segunda estructura de decisiÃ³n ANIDADA en la primera o (1)
 		// ---------------------------------------------------------------
 		si  varcar_password_ingresado =  varcar_password_almacenado Entonces
 			// -------------------------------------------------------
-			// (5) Camino que toma si la segunda decisión es verdadera
+			// (5) Camino que toma si la segunda decisiÃ³n es verdadera
 			// -------------------------------------------------------
 			limpiar pantalla
 			Escribir " "
 			escribir "USUARIO IDENTIFICADO dentro del sistema."
-			Escribir "CONTRASEÑA validada. "
+			Escribir "CONTRASEÃ‘A validada. "
 			Escribir " "
-			escribir "El sistema ahora abrirá su cuenta para operar con ella"
+			escribir "El sistema ahora abrirÃ¡ su cuenta para operar con ella"
 		sino 	
 			// ---------------------------------------------------
-			// (6) Camino que toma si la segunda decisión es falsa
+			// (6) Camino que toma si la segunda decisiÃ³n es falsa
 			// ---------------------------------------------------
 			limpiar pantalla
 			Escribir " "
-			escribir "La CONTRASEÑA no es correcta."
-			escribir "El sistema ahora saldrá sin abrir la cuenta"
+			escribir "La CONTRASEÃ‘A no es correcta."
+			escribir "El sistema ahora saldrÃ¡ sin abrir la cuenta"
 		FinSi
 		
 	sino 	
 		// --------------------------------------------------------
-		// (3) Camino que toma si la primera decisión es falsa
+		// (3) Camino que toma si la primera decisiÃ³n es falsa
 		// --------------------------------------------------------
 		limpiar pantalla
 		Escribir " "
 		escribir "Su NOMBRE DE USUARIO es INVALIDO."
-		escribir "El sistema ahora saldrá sin abrir la cuenta"
+		escribir "El sistema ahora saldrÃ¡ sin abrir la cuenta"
 		
 	FinSi
 	
