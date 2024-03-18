@@ -1,19 +1,22 @@
-//  Programa de EjecuciÛn Lineal Sin Decisiones
+//  Programa de Ejecuci√≥n Lineal Sin Decisiones
 // (c) Ricardo Ponce
 // https://profesorponce.blogspot.com/
 // Version 2024
 //
 // Este programa se ejecuta linea por linea o sentencia
-// por sentencia, con la particularidad que nunca se desvÌa 
-// por ningun tipo de decisiÛn
+// por sentencia, con la particularidad que nunca se desv√≠a 
+// por ningun tipo de decisi√≥n
+//
+// Infograf√≠a: Ejecuci√≥n de Programas: Lineal, Si-Sino-Finsi y Si-Sino-Finsi Anidado
+// https://drive.google.com/file/d/1qPz-cbWMHkdyxJmRcBOIgxEm-KSxWXLj/view
 
 // nunca se olvide asignarle un nombre al programa
 Algoritmo Asignacion_de_variable
 	
-	// mi variable se llamar· VARCAR_NOMBRE y es del tipo caracter
+	// mi variable se llamar√° VARCAR_NOMBRE y es del tipo caracter
 	definir varcar_nombre Como Caracter
 	
-	// incializaciÛn de la variable
+	// incializaci√≥n de la variable
 	varcar_nombre = ""
 	
 	// el programa limpia la pantalla
