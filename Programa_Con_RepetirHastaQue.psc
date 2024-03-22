@@ -4,12 +4,15 @@
 // Version 2024
 //
 // El programa simula el ingreso a un sistema
-// que requiere autenticación mediante
+// que requiere autenticaciÃ³n mediante
 // nombre de usuario 
 
 // Incorpora un mini sistema de control que 
 // solo permite 3 intentos para ingresar el nombre 
 // de usuario correcto 
+
+// Video explicativo de la estructura Repetir-HastaQue (y programa de ejemplo) en:
+// https://cursoprogramacionpseint.blogspot.com/2022/11/12-estructura-repetitiva-repetir.html
 
 // No olvide ingresar el nombre de su programa
 Algoritmo Programa_Con_RepetirHastaQue
@@ -40,13 +43,13 @@ Algoritmo Programa_Con_RepetirHastaQue
 		// un intento menos
 		varent_cantidad_de_veces = varent_cantidad_de_veces - 1
 		
-	// si el contador llegó a cero, no se repetirá	el bucle
-	Hasta Que varent_cantidad_de_veces < 1		// condición que el programa evalúa
+	// si el contador llegÃ³ a cero, no se repetirÃ¡	el bucle
+	Hasta Que varent_cantidad_de_veces < 1		// condiciÃ³n que el programa evalÃºa
 	                                            // para repetir el bucle
 	
 	limpiar pantalla
 	si varcar_usuario_correcto = varcar_usuario_ingresado Entonces
-		escribir "Usted ingresó el nombre de usuario CORRECTO."
+		escribir "Usted ingresÃ³ el nombre de usuario CORRECTO."
 	SiNo
 		escribir "Usted se EQUIVOCO al ingresar el nombre de usuario."
 	FinSi
