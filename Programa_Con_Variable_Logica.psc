@@ -4,8 +4,8 @@
 // Version 2024
 //
 // El programa simula el ingreso a un sistema
-// que requiere autenticación mediante
-// nombre de usuario y contraseña
+// que requiere autenticaciÃ³n mediante
+// nombre de usuario y contraseÃ±a
 //
 // El acceso a la operatoria se controla mediante 
 // una variable tipo FLAG o BANDERA
@@ -24,23 +24,23 @@
 // programas como LLAVES LOGICAS que cierran accesos
 // a partes de los programas.
 // Estas llaves de acceso se programan como CERRADAS
-// y cambias de estado cuando se cumplen las condiciones 
+// y cambian de estado cuando se cumplen las condiciones 
 // para permitir el acceso.
 
 // En este programa usaremos una llave logica llamada
 //                  varlog_AbrirBanco
-// que controlará el acceso al bloque pirncipal del
+// que controlarÃ¡ el acceso al bloque pirncipal del
 // programa.
 //
-// La llave SOLO SE ABRIRÁ pasando del estado FALSO
+// La llave SOLO SE ABRIRÃ pasando del estado FALSO
 // a un nuevo estado VERDADERO cuando el usuario que
 // usa nuestro programa ingrese:
 //
 // 1) nombre de usuario correcto y
-// 2) contraseña correcta
+// 2) contraseÃ±a correcta
 //
 // Al cumplirse esas dos CONDICIONES VERDADERAS
-// la llave pasará al estado VERDADERO, facilitando 
+// la llave pasarÃ¡ al estado VERDADERO, facilitando 
 // el acceso al programa principal
 
 Algoritmo Variable_Logica
@@ -71,7 +71,7 @@ Algoritmo Variable_Logica
 	leer varcar_usuario_ingresado
 	
 	// ---------------------------------------------------------------------
-	// bloque de validación = es la inteface de acceso al programa principal
+	// bloque de validaciÃ³n = es la inteface de acceso al programa principal
 	// ---------------------------------------------------------------------
 	si  varcar_usuario_ingresado =  varcar_usuario_almacenado Entonces
 		// este bloque de instrucciones se ejecuta cuando el usuario
@@ -81,17 +81,17 @@ Algoritmo Variable_Logica
 		escribir "USUARIO IDENTIFICADO dentro del sistema."
 	    Escribir " "
 		escribir "Por favor, cuando aparezca el prompt de pantalla [ >| ]"
-	    escribir "escriba su CONTRASEÑA o PASSWORD y presione la tecla ENTER o INTRO"
+	    escribir "escriba su CONTRASEÃ‘A o PASSWORD y presione la tecla ENTER o INTRO"
 	    leer varcar_password_ingresado
 		
 		si  varcar_password_ingresado =  varcar_password_almacenado Entonces
 			
 			// este bloque de instrucciones se ejecuta cuando el usuario
-		    // ingreso correctamente el password o contraseña
+		    // ingreso correctamente el password o contraseÃ±a
 			// en este punto se han cumplido las 2 condiciones logicas 
 			// que permiten la paertura del programa de caja de ahorro:
 			// Nombre de Usuario = OK
-			// Contraseña = OK
+			// ContraseÃ±a = OK
 			// Nuestra llave logica cambia de estado para permitir 
 			// el acceso al programa principal
 		    varlog_AbrirBanco = verdadero
@@ -100,13 +100,13 @@ Algoritmo Variable_Logica
 	FinSi
 	
 	// ----------------------------------------------------
-	// programa principal, cuyo acceso está restringido por
+	// programa principal, cuyo acceso estÃ¡ restringido por
 	// el estado de la llave logica (FLAG o BANDERA)
 	// ----------------------------------------------------
     si varlog_AbrirBanco = Verdadero Entonces
 		// el programa ejecuta este bloque de instrucciones
 		// solamente cuando se ingreso nombre de usuario y
-		// contraseñas correctas
+		// contraseÃ±as correctas
 		Limpiar Pantalla
 		escribir "GESTION DE CAJA DE AHORRO"
 		escribir "Programa abierto"
