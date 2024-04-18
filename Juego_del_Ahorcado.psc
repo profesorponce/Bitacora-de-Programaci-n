@@ -11,7 +11,7 @@
 //  debera usar la funcion azar(20+1) y la estructura SEGUN 
 // HACER para seleccionar entre las 20 palabras disponibles
 //
-// CONSIGNA 2: se intentará agregar el famoso dibujito del
+// CONSIGNA 2: se intentarÃ¡ agregar el famoso dibujito del
 // ahorcado al momento de equivocarse en elegir la letra
 //     _O_
 //     I
@@ -32,13 +32,13 @@ Algoritmo Juego_del_Ahorcado
 	// vover a jugar o no
 	
 	definir var_palabra_en_juego como cadena // guarda la cadena de datos adivinados por el 
-	// usuario mientras está jugando. Las letras adivinadas van apareciendo a medida que las adivina
+	// usuario mientras estÃ¡ jugando. Las letras adivinadas van apareciendo a medida que las adivina
 	
-	definir var_tamanio_de_palabra como entero //guarda el tamaño en cantidad de letras de la palabra
+	definir var_tamanio_de_palabra como entero //guarda el tamaÃ±o en cantidad de letras de la palabra
 	// que se debe adivinar
 	
 	definir var_total_de_intentos como entero  //total de intentos permitidos para adivinar las letras
-	// corresponde al tamaño en letras de la palabra que debe adivinarse
+	// corresponde al tamaÃ±o en letras de la palabra que debe adivinarse
 	
 	definir aux como entero //variable auxiliar que se usa en un bucle de repeticion
 	
@@ -48,9 +48,9 @@ Algoritmo Juego_del_Ahorcado
 	repetir
 		
 		limpiar pantalla 
-		escribir "AHORCADO. Versión 1.00"
+		escribir "AHORCADO. VersiÃ³n 1.00"
 		escribir "por [Su nombre]"
-		escribir "[dirección web o email"
+		escribir "[direcciÃ³n web o email"
 		escribir ""
 		escribir "INGRESE UNA PALABRA PARA ADIVINAR"
 		leer var_palabra_para_adivinar
@@ -97,7 +97,6 @@ Algoritmo Juego_del_Ahorcado
 					// escribir ">>",subcadena(var_subcadena_para_mostrar,1,aux-1)
 					// escribir ">>",var_letra_ingresada
 					// escribir ">>",subcadena(var_subcadena_para_mostrar,aux+1,longitud(var_subcadena_para_mostrar))
-					//conc1=Concatenar(conc1,var_letra_ingresada)
 					var_palabra_en_juego = subcadena(var_subcadena_para_mostrar,1,aux-1) + var_letra_ingresada + subcadena(var_subcadena_para_mostrar,aux+1,longitud(var_subcadena_para_mostrar))
 					var_subcadena_para_mostrar = var_palabra_en_juego
 					adivinados = adivinados +1
