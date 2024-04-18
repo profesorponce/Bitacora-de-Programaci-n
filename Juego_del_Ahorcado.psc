@@ -4,11 +4,14 @@
 // Version 2024
 //
 // En este programa le muestro como se puede armar un juego completo
-// del ahorcado
+// del ahorcado, pero esta es la version INICIAL
+//
+// Es esta misma carpeta busque la version FULL del ahorcado
+// con las 2 consignas de abajo implementadas
 //
 // CONSIGNA 1: para jugar al ahorcado, el programaq contara con 
-//  un total de 20 palabras. Al iniciar el juego, el programa
-//  debera usar la funcion azar(20+1) y la estructura SEGUN 
+// un total de 20 palabras. Al iniciar el juego, el programa
+// debera usar la funcion azar(20+1) y la estructura SEGUN 
 // HACER para seleccionar entre las 20 palabras disponibles
 //
 // CONSIGNA 2: se intentará agregar el famoso dibujito del
